@@ -1081,7 +1081,7 @@
                   },
                   "imageReference": {
                     "publisher": "thefreebsdfoundation",
-                    "offer": "freebsd-14_1,
+                    "offer": "freebsd-14_1",
                     "sku": "14_1-release-amd64-gen2-zfs",
                     "version": "latest"
                   }
