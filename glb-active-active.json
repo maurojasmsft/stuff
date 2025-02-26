@@ -699,6 +699,11 @@
               "name": "[parameters('virtualMachineName')]",
               "location": "[resourceGroup().location]",
               "properties": {
+                 "plan": {
+                  "name": "14_1-release-amd64-gen2-zfs",
+                  "publisher": "thefreebsdfoundation",
+                  "product": "freebsd-14_1"
+                 },
                 "osProfile": {
                   "computerName": "[parameters('virtualMachineName')]",
                   "adminUsername": "[parameters('TempUsername')]",
@@ -1067,6 +1072,11 @@
               "name": "[parameters('virtualMachineName')]",
               "location": "[resourceGroup().location]",
               "properties": {
+                  "plan": {
+                  "name": "14_1-release-amd64-gen2-zfs",
+                  "publisher": "thefreebsdfoundation",
+                  "product": "freebsd-14_1"
+                 },
                 "osProfile": {
                   "computerName": "[parameters('virtualMachineName')]",
                   "adminUsername": "[parameters('TempUsername')]",
